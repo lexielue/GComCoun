@@ -1,0 +1,19 @@
+# Ignore the .git directory
+.git
+
+# Ignore node_modules and yarn.lock if using Node.js
+node_modules/
+yarn.lock
+
+# Ignore log files
+*.log
+
+# Ignore local environment files
+.env
+
+# Ignore Dockerfile and docker-compose.yml if they're used for local dev
+Dockerfile
+docker-compose.yml
+
+# Ignore any temp files
+*.tmp
